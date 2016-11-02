@@ -1,0 +1,143 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+.container {
+    margin: 2em 5em auto 5em;
+    max-width: 850px;
+}
+
+/*formatting*/
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.muted_font {
+    color: #7D97AD;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.role_font {
+    font-weight: 700;
+    color: #2D3C49;
+}
+
+#boundary {
+    height: 2px;
+    background: #7D97AD;
+}
+
+.logo_image {
+    max-width: 100px;
+    margin-top: 25px;
+}
+
+.thin_font {
+    font-weight: 100;
+    font-size: 50px;
+    border-bottom: 0px;
+    color: #2D3C49;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+#projects.row {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 400px) {
+
+    img {
+        width: 100%;
+    }
+
+    .muted_font {
+        color: #7D97AD;
+        font-weight: 1000;
+        font-size: 20px;
+    }
+
+    #boundary {
+        height: 2px;
+        background: #7D97AD;
+        margin-bottom: 0px;
+    }
+
+    .role_font {
+        font-size: 15px;
+    }
+
+    .thin_font {
+        font-weight: 100;
+        font-size: 25px;
+        border-bottom: 0px;
+        color: #2D3C49;
+        }
+    
+    .logo_image {
+        width: 70px;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .img-responsive {
+        margin: 0 auto;
+    }
+
+    #coverphoto {
+        margin: 0 auto;
+    }
+
+    .bottom_spacing {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+    
+    .logo_image {
+        margin-top: 15px;
+        float: left;
+        width: 100px;
+    }
+
+    .role_font {
+        font-size: 20px;
+    }
+
+    .thin_font {
+        font-weight: 100;
+        font-size: 40px;
+        border-bottom: 0px;
+        color: #2D3C49;
+        }
+
+    .img-responsive {
+        margin: 0 auto;
+        }
+
+    .muted_font {
+        color: #7D97AD;
+        font-weight: 1000;
+        font-size: 30px;
+        }
+    
+    figcaption {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .bottom_spacing {
+        margin-bottom: 20px;
+    }
+}
